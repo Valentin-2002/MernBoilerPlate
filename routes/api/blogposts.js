@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
+const { findOneAndUpdate } = require('../../models/Blogpost');
 const Blogpost = require('../../models/Blogpost');
 
 mongoose.connect(process.env.MONGODB_URI, {
