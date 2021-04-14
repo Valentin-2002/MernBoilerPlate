@@ -2,8 +2,8 @@
   "name": "mernboilerplate",
   "version": "1.0.0",
   "engines": {
-    "node": "12.x",
-    "yarn": "1.x"
+    "node": "14.x",
+    "cd ": "1.x"
   },
   "description": "This is a boilerplate repo for creating new mern stack apps",
   "main": "server.js",
